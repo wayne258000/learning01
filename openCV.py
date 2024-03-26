@@ -1,5 +1,5 @@
 import cv2
-
+#顯示出彩色照片
 image = cv2.imread('image.jpg')
 if image is not None:
   cv2.imshow('Image',image)
